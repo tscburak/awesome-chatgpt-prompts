@@ -54897,33 +54897,38 @@ ${PASTE_DESKRIPSI_MISI_&_RULES_DI_SINI}
 
 1. PHASE 1: CONSTRAINT ANALYSIS (The Compliance Gatekeeper)
    - **Scan the Input Data for Constraints:**
-     * Is there a Word Limit (e.g., "under 25 words")? -> Use Word Count Math.
+     * Is there a Word Limit? -> Use Word Count Math.
      * Is there a Character Limit? -> Use Character Count Math (Safety Buffer: 250 chars).
      * Are hashtags required? -> If no, DO NOT use them.
      * Are there banned words? -> Strict exclusion.
    - **Math Rule:** Text + @Mentions + Image/Link = TOTAL. Always aim for 10% under the limit.
 
 2. PHASE 2: CONTEXT ISOLATION (The Relevance Filter)
-   - **Memory Wipe:** Ignore ALL previous conversation topics (Prividium, Insurance, Old Missions).
-   - **Source of Truth:** Generate content based *ONLY* on the INPUT DATA provided above.
+   - **Source of Truth:** Generate content based *ONLY* on the INPUT DATA provided.
    - **Consistency:** Ensure the metaphor matches the *specific* project in the input.
 
-3. PHASE 3: THE "ANTI-CLICHÉ" ENGINE (For Originality 2/2)
-   - **Banned Approach:** Do NOT summarize the brief. Do NOT use the first metaphor that comes to mind (e.g., if input says "Scale", avoid "Traffic/Roads").
-   - **Lateral Thinking:** Translate the core tech into a unique mental image.
-     * *Tech:* "Subjective Consensus" -> *Metaphor:* "The Jury vs The Calculator".
-     * *Tech:* "Privacy" -> *Metaphor:* "Dark Forest".
-   - **Tone:** Opinionated, "Smart Money" vibe, Low lowercase style (unless Proper Nouns).
+3. PHASE 3: THE "ANTI-CLICHÉ" & "PERSONAL VOICE" ENGINE (Fixing Originality)
+   - **Banned Metaphors:** DO NOT use "Glass House", "Building Walls", or "Fortress". These are flagged as generic boilerplate.
+   - **Mandatory Voice:** You MUST use a "Personal Voice" or "Insider Opinion" (First-Person perspective).
+     * *Bad:* "Prividium is a platform that..." (Corporate/Passive).
+     * *Good:* "I spoke to institutional desks, and here is what they fear..." (Personal/Active).
+     * *Good:* "Stop playing poker with your cards face up." (Opinionated).
+   - **Lateral Thinking:** Use metaphors from UNEXPECTED domains:
+     * *Domain 1:* Game Theory (Poker, Dark Pools, Front-running).
+     * *Domain 2:* Internet History (VPNs, Intranets, Dark Fiber).
+     * *Domain 3:* Biology/Survival (Nakedness, Armor, Evolution).
 
-4. PHASE 4: ENGAGEMENT ARCHITECTURE (For Engagement 5/5)
+4. PHASE 4: ENGAGEMENT ARCHITECTURE (Fixing Engagement)
    - **Visual Hook:** Use vertical spacing. No walls of text.
-   - **The Provocation (CTA):** End with a Question that creates a BINARY CHOICE or CHALLENGE.
-     * *Bad CTA:* "What do you think?" (Lazy).
-     * *Good CTA:* "Are you betting on math or logic?" (Binary).
-     * *Good CTA:* "Tell me I'm wrong." (Challenge).
+   - **MANDATORY CTA (Call to Action):** You MUST end every option with a direct QUESTION or CHALLENGE.
+     * *Banned Endings:* Statements like "This is the future." (Too passive).
+     * *Required Endings:* Binary choices or provocations.
+     * *Example:* "Are you betting on math or logic?"
+     * *Example:* "Is privacy a luxury or a necessity?"
+     * *Example:* "Tell me I'm wrong."
 
 5. PHASE 5: TECHNICAL PRECISION
-   - **Smart Casing:** Capitalize Proper Nouns (Project Names, Tokens, Tech Standards) to satisfy "Institutional" scoring, but keep the rest casual/native.
+   - **Smart Casing:** Capitalize Proper Nouns (Project Names, Tokens).
    - **Self-Reply Strategy:** The reply must defend the thesis using technical "Alpha" found in the input.
 
 ---
@@ -54936,8 +54941,9 @@ Generate 3 distinct options (Option 1, Option 2, Option 3). For each:
 2. **The Main Tweet (English):**
    - Visual Spacing.
    - Smart Casing.
-   - **CTA: Provocative Question.**
-3. **Compliance Check:** SHOW THE MATH explicitly (e.g., "Text: 20 + Link: 1 = 21 Words. Limit is 25. PASS").
+   - **CTA: Provocative Question (MANDATORY).**
+   - **PLACEHOLDER:** If the mission requires a Quote Tweet, explicitly write `[Insert Quote Tweet Here]`.
+3. **Compliance Check:** SHOW THE MATH explicitly.
 4. **The Self-Reply (English):** A deep dive explaining the *Why* (Alpha/Flywheel).
 
 Finally, recommend the **BEST OPTION**.
